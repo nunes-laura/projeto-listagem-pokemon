@@ -6,11 +6,26 @@
     margin: 0;
 }
 
+.grass{
+    background-color: #77c850;
+}
+
+.poison{
+    background-color: #a04a0a;
+}
+
+.fire{
+    background-color: #ee7f30;
+}
+
+.flying{
+    background-color: #098ff0;
+}
+
 
 .pokemon {
     margin: 0.5rem;
     padding: 1rem;
-    background-color: #49D0B0;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -27,6 +42,7 @@
 .pokemon .name{
     color: #fff;
     margin-bottom: .25rem;
+    text-transform: capitalize;
 }
 
 
@@ -44,12 +60,13 @@
 }
 
 .pokemon .detail .types .type {
-    background-color: #61e1ca;
     color: white;
     padding: .25rem .5rem;
     margin: .25rem 0;
     font-size: 0.625rem;
     border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
 
 }
 
